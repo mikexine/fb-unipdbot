@@ -1,0 +1,5 @@
+; unipd Configuration File
+[main]
+environment = DEBUG_OR_PRODUCTION
+token = BOT_TOKEN
+verifytoken = VERIFY_TOKEN
