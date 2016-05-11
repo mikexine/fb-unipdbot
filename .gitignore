@@ -4,4 +4,4 @@ env
 *.ini
 tmp/
 *.db
-test
+*test*
