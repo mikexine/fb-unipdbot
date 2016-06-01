@@ -434,6 +434,9 @@ def send_biblio(message, biblio):
     text = biblioDict['nome'] + "\n"
     if biblio == "metelli" or biblio == "pinali":
         text += "Posti liberi: " + biblioDict['posti'] + "\n"
+    elif biblio == "bibliogeo":
+        text += "Posti liberi: " + biblioDict['posti'] + "\n"
+        text += "Notebook liberi: " + biblioDict['notebook'] + "\n"
     else:
         text += ""
     text += "Indirizzo: " + biblioDict["indirizzo"]

@@ -2,70 +2,36 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>fb-unipdbot</h1>
+<h1>UnipdBot</h1>
 <hr />
-  <script>
-
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '<APP_ID>',
-        xfbml      : true,
-        version    : 'v2.6'
-      });
-
-    };
-
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) { return; }
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-  </script>
-<div class="fb-messengermessageus" 
-  messenger_app_id="1733051963609910" 
-  page_id="1734334823449262"
-  color="blue"
-  size="xlarge" ></div>  &nbsp; &nbsp; &nbsp; &nbsp; <div class="fb-messengermessageus" 
-  messenger_app_id="1733051963609910" 
-  page_id="1734334823449262"
-  color="blue"
-  size="xlarge" ></div> &nbsp; &nbsp; &nbsp; &nbsp; <div class="fb-messengermessageus" 
-  messenger_app_id="1733051963609910" 
-  page_id="1734334823449262"
-  color="blue"
-  size="xlarge" ></div> &nbsp; &nbsp; &nbsp; &nbsp; <div class="fb-messengermessageus" 
-  messenger_app_id="1733051963609910" 
-  page_id="1734334823449262"
-  color="blue"
-  size="xlarge" ></div>
-
+<a href="https://m.me/unipdbot" class="btn btn-default" id="fb-bot" target="_blank">UnipdBot on Facebook</a>
+<div class="pull-right">
+<a href="https://telegram.me/unipdbot" class="btn btn-default" id="tg-bot" target="_blank">UnipdBot on Telegram</a></div>
   <hr />
 <p>Just a simple bot that you can use to get some data about the University of Padua!</p>
+<p>Stay updated by following the bot's <a href="https://fb.com/unipdbot" target="_blank">Facebook page!</a></p>
 
 <p>Privacy policy: <a href="https://www.iubenda.com/privacy-policy/7846357">here.</a></p>
 <hr />
-
-<h3 align="center">Related projects:</h3>
-<li><p><a href="https://uniopen.org">UniOpen.org</a></p></li>
-<li><p><a href="https://telegram.me/unipdbot">@UnipdBot</a> Telegram Bot.</p></li>
-<li><p><a href="https://play.google.com/apps/testing/com.ionicframework.unipd967659" target="_blank">Unipd App</a>: Ionic app, now available in Alpha mode for android. iOS version is not available yet - the Apple's license is expensive!</p></li>
-
-
-<hr />
-
-
-
-
-<h4 align="center">Want to help?</h4>
+<h3 align="center">Want to help?</h4>
 <p>Help is very much appreciated! </p>
 
 <p>GitHub links: </p>
 <ul>
-<li><p><a href="https://github.com/mikexine/fb-unipdbot" target="_blank">fb-UnipdBot on GitHub</a>.</p></li>
+<li><p><a href="https://github.com/mikexine/fb-unipdbot" target="_blank">UnipdBot (Facebook) on GitHub</a>.</p></li>
+<li><p><a href="https://github.com/mikexine/unipdbot" target="_blank">UnipdBot (Telegram) on GitHub</a>.</p></li>
 </ul>
+
+
+
+
+<hr />
+
+
+<h4 align="center">Related projects:</h3>
+<li><p><a href="https://uniopen.org" target="_blank">UniOpen.org</a></p></li>
+
+
 <hr />
 <br />
 

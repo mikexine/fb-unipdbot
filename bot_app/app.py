@@ -16,7 +16,7 @@ if Environment == 'debug':
 else:
     IsDebug = False
 
-verifytoken = str(config.get('main', 'token'))
+verifytoken = str(config.get('main', 'verifytoken'))
 
 
 app = Flask(__name__)
@@ -25,6 +25,11 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/contacts/')
+def contacts():
+    return render_template('contacts.html')
 
 
 @app.route('/webhook/', methods=["POST", "GET"])
